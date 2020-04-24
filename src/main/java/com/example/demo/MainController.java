@@ -11,4 +11,8 @@ public class MainController {
 		return "This is spring";
 	}
 
+	@RequestMapping("/test")
+	public String test2() {
+		return "This is spring";
+	}
 }
